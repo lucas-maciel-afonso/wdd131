@@ -70,25 +70,17 @@ p {
     border-radius: 10px;
 }
 
-.lucasimage {
-    width: 10%;
-    float: right;
-    margin-top: 20px;
+.card h2 {
+    color: white;
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: -20px;
 }
 
-.plucas {
-    margin-top: 50px;
-    padding-bottom: 150px;
-}
-
-.acreimage {
-    width: 200px;
-    height: 165px;
-    float: left;
-    padding-right: 20px;
-}
-
-.main h2 {
+/* .main h2 {
     color: white;
     text-align: center;
     background-color: #333;
@@ -106,11 +98,29 @@ p {
     border: 1px solid white;
     border-radius: 5px;
     margin-top: -20px;
-}
+} */
 
 .list {
     margin-top: 250px;
     text-align: left;
+}
+
+.lucasimage {
+    width: 10%;
+    float: right;
+    margin-top: 20px;
+}
+
+.plucas {
+    margin-top: 50px;
+    padding-bottom: 150px;
+}
+
+.acreimage {
+    width: 200px;
+    height: 165px;
+    float: left;
+    padding-right: 20px;
 }
 
 .footer {
