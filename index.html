@@ -4,25 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucas Maciel Afonso - WDD 131</title>
-    <link rel="stylesheet" href="style.css">
+    <title>WDD 131 - Dynamic Web Fundamentals - Lucas Maciel Afonso</title>
+    <meta name="description" content="Landing page - WDD 131 - Dynamic Web Fundamentals - Lucas Maciel Afonso">
+    <meta name="author" content="Lucas Maciel Afonso">
+
+    <script src="scripts/getdates.js" defer></script>
+
+    <link rel="stylesheet" href="styles/base.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
     <header class="header">
-        <h1>Header Content</h1>
+        <h1>WDD 131: Dynamic Web Fundamentals - <span>Lucas M. Afonso</span></h1>
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">Project</a>
-            <a href="#">Services</a>
-            <a href="#">Contact Us</a>
+            <a href="https://www.linkedin.com/in/lucas-maciel-afonso-60a2a820b/">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a
+                href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/28?lang=eng&id=p30#p30">Scripture</a>
+            <a href="#">Final Project</a>
         </nav>
     </header>
     <div class="content">
-        <main class="main">Main Content</main>
-        <aside class="aside">Aside Content</aside>
+
+        <section class="card">
+            <main class="main">
+
+                <h2>About me</h2>
+
+                <img src="images/picture-lucas-maciel-afonso.jpeg" alt="A profile picture of Lucas Maciel Afonso"
+                    class="lucasimage">
+
+                <p class="plucas">My name is Lucas Maciel Afonso, and I’m from Acre, Brazil. I speak Portuguese, Spanish
+                    and English,
+                    which
+                    helps me connect with people from diverse backgrounds. I’m passionate about learning and love diving
+                    into topics like interpersonal communication, biology and technology. I’m also a video game lover,
+                    so if you want to talk about ff7 rebirth or any other games, I am down!!
+                </p>
+
+                <h3>Acre, Brazil</h3>
+
+                <img src="images/bandeira-do-acre.png" alt="Oficial Flag" class="acreimage">
+
+                <p class="pacre">Acre, westernmost estado (state) of Brazil. Acre covers the southwesternmost part of
+                    Brazil’s Hiléia
+                    (Hylea), the forest zone of the Amazon River basin. Bounded north by Amazonas state, it has western
+                    and southern frontiers with Peru and southeastern with Bolivia. The capital is Rio Branco on the Rio
+                    Acre in the eastern part of the state. The state’s name is derived from that of the Rio Acre, which
+                    seems to be of Indian origin. Covered by tropical rainforest, Acre produces the highest-quality
+                    rubber in Brazil.
+                </p>
+
+            </main>
+        </section>
+
+        <section class="card">
+            <aside class="aside">
+
+                <h2>Web Dev Resources</h2>
+
+                <ul class="list">
+                    <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                    <li><a href="https://www.edx.org/">edX</a></li>
+                    <li><a href="https://stackoverflow.com/">Stack overflow</a></li>
+                    <li><a href="https://github.com/">GitHub</a></li>
+                </ul>
+
+            </aside>
+        </section>
+
     </div>
-    <footer class="footer">Footer Content</footer>
+    <footer class="footer">
+        <p>&copy; <span id="currentyear"></span> Lucas Maciel Afonso • Acre, Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 
 </html>

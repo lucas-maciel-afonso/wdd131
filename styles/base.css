@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+a {
+    color: black;
+}
+
+li {
+    margin: 50px;
+}
+
+p {
+    text-align: left;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 60px;
+    padding: 10px 15px;
+}
+
+.navbar a:hover {
+    color: #333;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    color: #333;
+    text-align: center;
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.lucasimage {
+    width: 10%;
+    float: right;
+    margin-top: 20px;
+}
+
+.plucas {
+    margin-top: 50px;
+    padding-bottom: 150px;
+}
+
+.acreimage {
+    width: 200px;
+    height: 165px;
+    float: left;
+    padding-right: 20px;
+}
+
+.main h2 {
+    color: white;
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+
+.aside h2 {
+    color: white;
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+
+.list {
+    margin-top: 250px;
+    text-align: left;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p {
+    text-align: center;
+}
