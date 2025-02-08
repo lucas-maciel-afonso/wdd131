@@ -81,7 +81,7 @@ footer {
         height: 3em;
         margin: 0 auto;
         /* horizontly centralize the icon */
-        background: url('/wdd131/images/sunny.png') no-repeat center/contain;
+        background: url('/wdd131/images/sunny.svg') no-repeat center/contain;
     }
 
     .data,
