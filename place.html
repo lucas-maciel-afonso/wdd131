@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+    <title>Amazon Forest</title>
+    <meta name="description" content="Information about the Amazon Forest">
+    <meta name="author" content="Lucas Maciel Afonso">
+
+    <link href="/wdd131/styles/place.css" rel="stylesheet">
+
+    <script defer src="/wdd131/scripts/getdates.js"></script>
+    <script defer src="/wdd131/scripts/place.js"></script>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Amazon Forest</h1>
+    </header>
+    <main>
+        <picture>
+            <source srcset="/wdd131/images/largePicture.webp" media="(min-width: 1200px)">
+            <source srcset="/wdd131/images/smallPicture.webp" media="(min-width: 768px)">
+            <img src="/wdd131/images/smallPicture.webp" alt="Amazon Forest">
+        </picture>
+        <div class="info-box data">
+            <h2>Data</h2>
+            <p><strong>Area:</strong> 5,500,000 sq km</p>
+            <p><strong>Population:</strong> 34,000,000</p>
+            <p><strong>Capital:</strong> Manaus</p>
+            <p><strong>Languages:</strong> Portuguese, Indigenous languages</p>
+            <p><strong>Currency:</strong> Brazilian Real</p>
+            <p><strong>Time Zone:</strong> UTC-4 to UTC-5</p>
+            <p><strong>Calling Code:</strong> +55</p>
+            <p><strong>Internet TLD:</strong> .br</p>
+        </div>
+        <div class="info-box weather">
+            <h2>Weather</h2>
+            <p><strong>Temperature:</strong> 10 °C</p>
+            <p><strong>Conditions:</strong> Partly Cloudy</p>
+            <p><strong>Wind:</strong> 5 km/h</p>
+            <p id="windChill"><strong>Wind Chill:</strong> 9.8 °C</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Lucas Maciel Afonso • Acre, Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

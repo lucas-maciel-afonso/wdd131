@@ -1,0 +1,97 @@
+:root {
+    --primary-color: #c8102e;
+    --secondary-color: #1b5e20;
+    --text-color: white;
+    --bg-overlay: rgba(255, 255, 255, 0.9);
+}
+
+body {
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+main {
+    position: relative;
+    text-align: center;
+}
+
+picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.info-box {
+    position: absolute;
+    background: var(--bg-overlay);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.data {
+    top: 10%;
+    left: 5%;
+    width: 250px;
+}
+
+.weather {
+    bottom: 10%;
+    right: 5%;
+    width: 200px;
+}
+
+.weather h2::after {
+    padding: 1rem;
+    content: '⛅';
+}
+
+.info-box h2 {
+    color: black;
+    padding: 10px;
+    margin: -1rem -1rem 1rem -1rem;
+    border-radius: 8px 8px 0 0;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 1rem;
+    margin: 0%;
+}
+
+/* mobile version */
+@media (max-width: 768px) {
+
+    .weather h2::after {
+        content: '';
+        display: block;
+        width: 3em;
+        height: 3em;
+        margin: 0 auto;
+        /* horizontly centralize the icon */
+        background: url('/wdd131/images/sunny.png') no-repeat center/contain;
+    }
+
+    .data,
+    .weather {
+        position: relative;
+        width: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        top: auto;
+        margin: 10px auto;
+    }
+}
