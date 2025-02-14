@@ -28,6 +28,15 @@ header h1 {
     margin: 0;
 }
 
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    margin-top: 0;
+}
+
 .menu-icon {
     display: none;
     font-size: 24px;
@@ -49,15 +58,6 @@ header h1 {
     color: #FFD700;
     text-decoration: underline;
     transition: background-color 0.3s, color 0.3s;
-}
-
-main {
-    padding: 20px;
-    text-align: center;
-}
-
-main h2 {
-    margin-top: 0;
 }
 
 .gallery {

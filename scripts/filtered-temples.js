@@ -78,7 +78,7 @@ const temples = [
         dedicated: "1978, October, 30",
         area: 59246,
         imageUrl:
-            "https://churchofjesuschristtemples.org/assets/img/temples/_temp/017-S%C3%A3o-Paulo-Brazil-Temple.jpg"
+            "/wdd131/images/São-Paulo-Brazil-Temple.webp"
     },
     {
         templeName: "Manaus Brazil",
@@ -86,7 +86,7 @@ const temples = [
         dedicated: "2012, june, 10",
         area: 32032,
         imageUrl:
-            "https://churchofjesuschristtemples.org/assets/img/temples/_temp/138-Manaus-Brazil-Temple.jpg"
+            "/wdd131/images/Manaus-Brazil-Temple.webp"
     },
     {
         templeName: "Campinas Brazil",
@@ -94,7 +94,7 @@ const temples = [
         dedicated: "2002, May, 17",
         area: 48100,
         imageUrl:
-            "https://churchofjesuschristtemples.org/assets/img/temples/campinas-brazil-temple/campinas-brazil-temple-6012-main.jpg"
+            "/wdd131/images/campinas-brazil-temple.webp"
     }
 ];
 
