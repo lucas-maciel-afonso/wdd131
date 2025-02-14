@@ -1,0 +1,104 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #4B0082;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+header {
+    background-color: #4B0082;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #6A0DAD;
+    color: #FFD700;
+    text-decoration: underline;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    margin-top: 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.gallery figure {
+    width: 100%;
+    margin: 0;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.temple-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.temple-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.temple-card h3 {
+    margin: 16px 0 8px;
+    font-size: 1.5em;
+}
+
+.temple-card p {
+    margin: 4px 0;
+    font-size: 1em;
+    color: #555;
+}
